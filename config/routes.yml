@@ -1,0 +1,4 @@
+timeroute:
+    prefix : /api/timeroute
+    resource: timeroutes.yml
+ 

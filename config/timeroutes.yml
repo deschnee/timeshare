@@ -1,0 +1,9 @@
+getAll:
+  path: /
+  defaults: { _controller: 'Annonce\AnnonceController::getAllAnnonces' }
+  methods:  [GET]
+  
+getCat:
+  path: /{cat}
+  defaults: { _controller: 'Annonce\AnnonceController::annParCategorie' }
+  methods:  [GET]
